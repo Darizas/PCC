@@ -1,0 +1,107 @@
+body {
+  background-color: #19A2AE;
+  font-family: 'Kumbh Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+  color: hsl(229, 23%, 23%);
+}
+
+hr {
+  border-color: hsl(0, 0%, 59%);
+  border-style: solid;
+  border-width: 1px 0 0 0;
+
+}
+
+p{
+  margin: 0;
+  color: hsl(229, 23%, 23%);
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: #3E52A3;
+}
+
+.main {
+  height: 100%;
+  justify-content: center;
+}
+
+.container {
+  width: 350px;
+  height: 375px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  margin-top: -200px;
+  display: inline;
+  margin-left: -175px;
+  border-radius: 20px;
+}
+
+.image-victor {
+  border-radius: 100%;
+  border: 5px solid white;
+  display: block;
+  position: absolute;
+  left: 127px;
+  top: 92px;
+
+}
+
+.bg-pattern-top {
+position: fixed;
+left: -258px;
+top: -500px;
+}
+
+.bg-pattern-bottom {
+position: fixed;
+right: -258px;
+bottom: -500px;
+}
+
+.bg-pattern-card {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 75px;
+}
+
+.name {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.age {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.city {
+font-size: 14px;
+margin: 10px 0 20px;
+}
+
+.stats-container {
+  display: inline-block;
+  margin: 20px 20px;
+}
+
+.stats {
+  font-size: 18px;
+}
+
+.stats-text {
+  font-size: 10px;
+  margin: 5px auto;
+  letter-spacing: 0.1rem;
+}
